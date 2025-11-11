@@ -1,0 +1,142 @@
+/* src/components/Hero.css */
+
+.hero-container {
+  padding: 80px 0; 
+  position: relative;
+  overflow: hidden; 
+}
+
+.hero-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px; 
+}
+
+/* --- Coluna 1: Conteúdo de Texto (Sem alterações) --- */
+.hero-content {
+  flex: 1; 
+  max-width: 650px; 
+  z-index: 5; 
+}
+
+.hero-intro {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.hero-title {
+  font-size: 52px; 
+  font-weight: 700; 
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-title .highlight-green {
+  color: var(--cor-verde-principal);
+}
+
+.hero-description {
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  background-color: var(--cor-verde-principal);
+  color: var(--cor-fundo); 
+  border: none;
+  border-radius: 50px; 
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 700; 
+  cursor: pointer;
+  text-transform: uppercase; 
+  letter-spacing: 1px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hero-button:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 0 15px var(--cor-verde-principal); 
+}
+
+/* --- Coluna 2: Imagem (SIMPLIFICADO) --- */
+.hero-image-container {
+  flex-shrink: 0; /* Impede que a imagem encolha */
+  z-index: 5;
+  
+  /* Removemos o 'position: relative' e 'display: flex' */
+  /* pois agora é só uma imagem */
+}
+
+/* A nossa imagem única */
+.hero-image-complete {
+  width: 400px; /* Defina o tamanho que desejar para a imagem */
+  height: auto; /* Deixe 'auto' para manter a proporção */
+  max-width: 100%; /* Garante que não quebre o layout */
+}
+
+
+/* --- RESPONSIVIDADE (Telas Menores) --- */
+@media (max-width: 900px) {
+
+  .hero-container {
+    padding: 40px 0; 
+  }
+
+  .hero-wrapper {
+    flex-direction: column;
+    padding: 0 20px; 
+    text-align: center; 
+  }
+
+  .hero-content {
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.6) 100%);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  /* O container da imagem ainda vira o fundo */
+  .hero-image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+    opacity: 1; /* A imagem toda (foto + moldura) ficará de fundo */
+    display: flex; /* Usamos flex para centralizar a imagem no fundo */
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  /* A imagem dentro do fundo */
+  .hero-image-complete {
+     /* Ajusta a imagem para ela preencher melhor o fundo */
+    width: 100%;
+    max-width: 500px; /* Limita o tamanho no mobile */
+    opacity: 0.7; /* Pode ajustar a opacidade só da imagem */
+  }
+
+  /* Ajustes de texto para mobile */
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-description {
+    font-size: 14px;
+  }
+
+  .hero-button {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+}

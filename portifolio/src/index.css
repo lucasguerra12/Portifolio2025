@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+  /* O verde do seu design */
+  --cor-verde-principal: #03F978; 
+  /* O fundo preto do seu design */
+  --cor-fundo: #000000;
+  /* O texto branco do seu design */
+  --cor-texto: #FFFFFF;
+  
+  /* A fonte que estamos a usar como base */
+  --fonte-padrao: 'Inter', sans-serif;
+}
+
+/* Reset básico para limpar estilos padrão do navegador */
+* {
+  margin: 0;
+  padding: 0;
+  /* Isso ajuda o CSS a calcular larguras e alturas de forma mais fácil */
+  box-sizing: border-box; 
+}
+
+/* ESTA É A CORREÇÃO PRINCIPAL: */
+body {
+  /* Define o fundo da página inteira para a nossa variável preta */
+  background-color: var(--cor-fundo);
+  
+  /* Define a cor do texto padrão para branco */
+  color: var(--cor-texto);
+  
+  /* Define a fonte padrão para o site todo */
+  font-family: var(--fonte-padrao);
+}
