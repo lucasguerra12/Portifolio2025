@@ -103,7 +103,7 @@ const projectsData = [
   {
     id: 7,
     title: 'Dunkel Company',
-    description: 'PREENCHA A DESCRIÇÃO: Breve descrição do projeto Dunkel Company.',
+    description: 'PREENCHA A DESPREENCHA A DESCRIÇÃOPREENCHA A DESCRIÇÃO: Breve descrição do projeto Dunkel Company.hubfuhbyu: Breve descrição do projeto Dunkel Company.hubfuhbyuCRIÇÃO: Breve descrição do projeto Dunkel Company.hubfuhbyu',
     tags: ['React', 'Node.js'], // Mude as tags
     imageMain: dunkel10,
     imageOverlay: dunkel20,

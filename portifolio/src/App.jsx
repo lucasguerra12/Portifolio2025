@@ -18,6 +18,7 @@ function App() {
       {/* Divisor de secção + Secção de Projetos */}
       <Marquee /> {/* Faixa 2 (Divisor) */}
       <Projects />
+      <Marquee /> {/* Faixa 3 (Divisor) */}
 
       <main style={{ padding: '20px', textAlign: 'center' }}>
         <p>(Restante do site em construção...)</p>
