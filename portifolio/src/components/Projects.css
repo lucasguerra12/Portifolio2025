@@ -1,0 +1,198 @@
+/* src/components/Projects.css */
+
+.projects-container {
+  padding: 80px 0;
+}
+
+.projects-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* O "quadro" verde externo */
+.project-card-frame {
+  background-color: #000; /* Fundo preto do card */
+  border: 2px solid var(--cor-verde-principal);
+  border-radius: 15px;
+  padding: 40px;
+  overflow: hidden; /* Para conter os elementos */
+}
+
+/* O layout de 2 colunas */
+.project-card-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+/* --- Lado Esquerdo: Info --- */
+.project-info {
+  flex: 1; /* Ocupa 50% */
+}
+
+.project-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.project-description {
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px;
+}
+
+.project-tag {
+  background-color: var(--cor-verde-principal);
+  color: var(--cor-fundo); /* Texto preto */
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Botão "Visitar Projeto" (Desktop) */
+.project-button-desktop {
+  display: inline-block; 
+  margin-top: 30px; 
+  background-color: var(--cor-verde-principal);
+  color: var(--cor-fundo);
+  border: none;
+  border-radius: 50px;
+  padding: 10px 25px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.project-button-desktop:hover {
+  transform: scale(1.05);
+}
+
+/* Botão "Ver Projeto" (Mobile) - Escondido no Desktop */
+.project-button-mobile {
+  display: none;
+}
+
+
+/* --- Lado Direito: Imagens --- */
+.project-images {
+  flex: 1; /* Ocupa 50% */
+  position: relative; /* Contexto para a imagem sobreposta */
+  min-height: 300px; 
+}
+
+.project-image-main {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+.project-image-overlay {
+  position: absolute;
+  width: 60%; 
+  bottom: -30px; 
+  right: -20px; 
+  border: 2px solid #555;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
+}
+
+
+/* --- Paginação (Dots) --- */
+.project-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px; /* Espaço acima dos dots */
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #444; /* Cor do dot inativo */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.dot:hover {
+  background-color: #666;
+}
+
+.dot.active {
+  background-color: var(--cor-verde-principal);
+}
+
+
+/* --- RESPONSIVIDADE (Telas Menores) --- */
+@media (max-width: 900px) {
+
+  .projects-wrapper {
+    padding: 0 20px;
+  }
+  .project-card-frame {
+    padding: 20px;
+  }
+
+  .project-card-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .project-info {
+    text-align: center;
+    order: 2; /* O texto fica DEPOIS da imagem */
+  }
+
+  .project-tags {
+    justify-content: center; /* Centra as tags */
+    margin-bottom: 30px;
+  }
+  
+  .project-images {
+    order: 1; /* A imagem fica ANTES do texto */
+    width: 100%;
+    min-height: auto;
+  }
+  
+  .project-image-main {
+     width: 100%; 
+  }
+
+  .project-image-overlay {
+    display: none; /* Esconde a imagem sobreposta */
+  }
+
+  /* Esconde o botão de Desktop */
+  .project-button-desktop {
+    display: none;
+  }
+
+  /* Mostra o botão de Mobile */
+  .project-button-mobile {
+    display: inline-block; 
+    background-color: var(--cor-verde-principal);
+    color: var(--cor-fundo);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .project-pagination {
+    margin-top: 30px;
+  }
+}
