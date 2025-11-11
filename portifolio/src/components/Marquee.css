@@ -1,92 +1,69 @@
-/* src/components/Marquee.css */
-
-/* 1. Definimos a animação de slide horizontal */
 @keyframes slide {
   from {
     transform: translateX(0);
   }
   to {
-    /* Move -50% porque duplicámos o conteúdo (50% + 50% = 100%) */
     transform: translateX(-50%);
   }
 }
-
-/* O container que segura as bandas e corta o excesso */
 .marquee-section-container {
   width: 100%;
-  overflow: hidden; /* A MÁGICA: Esconde o conteúdo que "vaza" */
-  padding: 70px 0; /* Dá espaço vertical para as bandas diagonais */
-  background-color: var(--cor-fundo); /* Fundo preto entre as secções */
-  position: relative; /* Contexto para as bandas absolutas */
+  overflow: hidden; 
+  padding: 70px 0; 
+  background-color: var(--cor-fundo);
+  position: relative; 
 }
 
-/* Estilo base para AMBAS as bandas */
 .marquee-band {
-  /* Posição e Rotação (do seu protótipo) */
   position: absolute;
-  width: 120%; /* Mais largo que a tela (100%) para "vazar" nas laterais */
-  left: -10%; /* Recua 10% para centralizar o 120% */
-  transform: rotate(-1.5deg); /* A inclinação do seu protótipo */
+  width: 120%;
+  left: -10%; 
+  transform: rotate(-1.5deg); 
 
-  /* Aparência */
   padding: 10px 0;
-  white-space: nowrap; /* Impede que o texto quebre a linha */
+  white-space: nowrap; 
 }
 
-/* A banda escura (de fundo) */
 .dark-band {
-  /* Usei um verde escuro. Pode ajustar esta cor */
   background-color: #022915; 
-  top: 30px; /* Posição (arbitrária, pode ajustar) */
-  z-index: 1; /* Fica atrás */
+  top: 30px; 
+  z-index: 1; 
 }
 
-/* A banda verde-clara (com texto) */
 .light-band {
   background-color: #095f33;
-  color: var(--cor-fundo); /* Texto preto (ou o que preferir) */
-  top: 55px; /* Um pouco abaixo da escura para o efeito de "crossing" */
-  z-index: 2; /* Fica na frente */
+  color: var(--cor-fundo);
+  top: 55px;
+  z-index: 2; 
 }
-
-/* O conteúdo interno que vai animar */
 .marquee-content {
   display: flex;
-  
-  /* 2. Aplicamos a animação */
-  /* Ajuste "30s" para mais rápido (ex: 15s) ou mais lento (ex: 60s) */
   animation: slide 30s linear infinite;
 }
 
-/* Os itens de texto */
 .marquee-item {
-  /* Isto é novo, para alinhar ícone + texto */
   display: flex; 
   align-items: center;
-  gap: 10px; /* Espaço entre o ícone e o texto */
+  gap: 10px;
   
   font-size: 16px;
   font-weight: 700; 
-  padding: 0 40px; /* Espaçamento entre os itens */
+  padding: 0 40px; 
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-/* Isto é novo, para estilizar os ícones */
 .marquee-item svg {
-  font-size: 20px; /* Tamanho do ícone */
-  /* Garante que o ícone pegue a cor do texto (preto) */
+  font-size: 20px; 
   fill: currentColor; 
 }
 
-/* 3. Escondemos o texto da banda escura (só precisamos da animação) */
 .dark-band .marquee-content {
   opacity: 0;
 }
 
 @media (max-width: 900px) {
 
-  /* Esta única regra esconde a secção inteira em telas menores */
   .marquee-section-container {
     display: none;
   }

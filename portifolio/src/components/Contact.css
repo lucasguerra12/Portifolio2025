@@ -1,0 +1,119 @@
+.contact-container {
+  padding: 80px 0;
+  background-color: #050505;
+}
+
+.contact-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+  
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.contact-intro {
+  flex: 1;
+  max-width: 500px; 
+}
+
+.contact-title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: var(--cor-verde-principal); 
+}
+
+.contact-description {
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.contact-form-container {
+  flex: 1;
+  background-color: #1e1e1e; 
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.contact-form-container h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  background-color: #111; 
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 12px;
+  
+  color: var(--cor-texto); 
+  font-size: 16px;
+  font-family: var(--fonte-padrao);
+  transition: border-color 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--cor-verde-principal);
+  box-shadow: 0 0 10px rgba(3, 249, 120, 0.2);
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.contact-submit-btn {
+  width: 100%;
+  background-color: var(--cor-verde-principal);
+  color: var(--cor-fundo); 
+  border: none;
+  border-radius: 50px;
+  padding: 14px;
+  
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-submit-btn:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px var(--cor-verde-principal);
+}
+
+@media (max-width: 900px) {
+  .contact-wrapper {
+    flex-direction: column; 
+    gap: 40px;
+  }
+  
+  .contact-intro {
+    text-align: center;
+    max-width: 100%;
+  }
+}

@@ -1,5 +1,3 @@
-/* src/components/Hero.css */
-
 .hero-container {
   padding: 80px 0; 
   position: relative;
@@ -16,7 +14,6 @@
   gap: 40px; 
 }
 
-/* --- Coluna 1: Conteúdo de Texto (Sem alterações) --- */
 .hero-content {
   flex: 1; 
   max-width: 650px; 
@@ -67,24 +64,17 @@
   box-shadow: 0 0 15px var(--cor-verde-principal); 
 }
 
-/* --- Coluna 2: Imagem (SIMPLIFICADO) --- */
 .hero-image-container {
-  flex-shrink: 0; /* Impede que a imagem encolha */
+  flex-shrink: 0; 
   z-index: 5;
-  
-  /* Removemos o 'position: relative' e 'display: flex' */
-  /* pois agora é só uma imagem */
 }
 
-/* A nossa imagem única */
 .hero-image-complete {
-  width: 400px; /* Defina o tamanho que desejar para a imagem */
-  height: auto; /* Deixe 'auto' para manter a proporção */
-  max-width: 100%; /* Garante que não quebre o layout */
+  width: 400px; 
+  height: auto; 
+  max-width: 100%;
 }
 
-
-/* --- RESPONSIVIDADE (Telas Menores) --- */
 @media (max-width: 900px) {
 
   .hero-container {
@@ -103,7 +93,6 @@
     border-radius: 10px;
   }
 
-  /* O container da imagem ainda vira o fundo */
   .hero-image-container {
     position: absolute;
     top: 0;
@@ -111,22 +100,19 @@
     width: 100%;
     height: 100%;
     z-index: 1; 
-    opacity: 1; /* A imagem toda (foto + moldura) ficará de fundo */
-    display: flex; /* Usamos flex para centralizar a imagem no fundo */
+    opacity: 1;
+    display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
   }
   
-  /* A imagem dentro do fundo */
   .hero-image-complete {
-     /* Ajusta a imagem para ela preencher melhor o fundo */
     width: 100%;
-    max-width: 500px; /* Limita o tamanho no mobile */
-    opacity: 0.7; /* Pode ajustar a opacidade só da imagem */
+    max-width: 500px;
+    opacity: 0.7; 
   }
 
-  /* Ajustes de texto para mobile */
   .hero-title {
     font-size: 36px;
   }

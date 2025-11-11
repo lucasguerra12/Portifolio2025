@@ -1,17 +1,11 @@
-// src/components/Hero.jsx
-
 import React from 'react';
-import './Hero.css'; // Importa o CSS
-
-// 1. Agora só importamos UMA imagem
+import './Hero.css';
 import minhaFotoCompleta from '../assets/foto10.png';
 
 function Hero() {
   return (
     <section className="hero-container">
       <div className="hero-wrapper">
-        
-        {/* Coluna 1: Conteúdo de Texto (igual) */}
         <div className="hero-content">
           <p className="hero-intro">Bem-vindo, aqui é meu web portifolio</p>
           
@@ -31,9 +25,7 @@ function Hero() {
           </button>
         </div>
 
-        {/* Coluna 2: Imagem (MUITO MAIS SIMPLES) */}
         <div className="hero-image-container">
-          {/* 2. Apenas UMA imagem é usada */}
           <img 
             src={minhaFotoCompleta} 
             alt="Lucas Guerra - Full Stack Developer" 

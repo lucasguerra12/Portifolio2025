@@ -1,18 +1,11 @@
-// src/components/AboutMe.jsx
-
 import React from 'react';
-import './AboutMe.css'; // Importa o CSS da secção
-
-// 1. Importe a sua nova foto
+import './AboutMe.css';
 import aboutMePhoto from '../assets/foto20.png';
 
 function AboutMe() {
   return (
     <section className="about-container">
-      {/* 2. Usamos o wrapper para alinhar com o Header e Hero */}
       <div className="about-wrapper">
-
-        {/* --- Coluna 1: Imagem --- */}
         <div className="about-image-container">
           <img 
             src={aboutMePhoto} 
@@ -21,7 +14,6 @@ function AboutMe() {
           />
         </div>
 
-        {/* --- Coluna 2: Conteúdo de Texto --- */}
         <div className="about-content">
           <span className="about-tag">ABOUT ME</span>
           
@@ -36,9 +28,7 @@ function AboutMe() {
             Sou um profissional focado, detalhista e persistente, com facilidade para aprender e resolver problemas. Valorizo o trabalho em equipe, a comunicação clara e a busca por resultados de qualidade. Estou sempre em busca de novos desafios para crescer pessoal e profissionalmente.
           </p>
 
-          {/* Container para os 3 cartões de estatísticas */}
           <div className="about-stats-container">
-            
             <div className="stat-card">
               <span className="stat-number">+10</span>
               <p className="stat-description">Tecnologias aplicadas</p>
@@ -53,7 +43,6 @@ function AboutMe() {
               <span className="stat-number">+10</span>
               <p className="stat-description">Projetos</p>
             </div>
-
           </div>
 
           <a href="#about-section" className="about-learn-more">
