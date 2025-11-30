@@ -3,34 +3,53 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Marquee from './components/Marquee';
 import AboutMe from './components/AboutMe';
+import Formation from './components/Formation'; // Movido para cima
+import Skills from './components/Skills';
 import Projects from './components/Projects'; 
 import Feedback from './components/Feedback';
-import Formation from './components/Formation'; 
 import Contact from './components/Contact';
 import Footer from './components/Footer'; 
-import Skills from './components/Skills';
 
 function App() {
   return (
     <div>
       <Header />
-      <Hero />
+      
+      <div id="home">
+        <Hero />
+      </div>
+      
       <Marquee />
-      <AboutMe />
-      <Skills />
-      <Marquee />
-      <Projects />
-      <Marquee />
-      <Feedback />
-      <Marquee />
-      <Formation />
-      <Marquee />
-      <Contact />
-      <Footer />
+      
+      <div id="about">
+        <AboutMe />
+      </div>
+      
+      <div id="formation">
+        <Formation />
+      </div>
 
-      <main style={{ padding: '20px', textAlign: 'center' }}>
-        <p>(Restante do site em construção...)</p>
-      </main>
+      <div id="skills">
+        <Skills />
+      </div>
+
+      <Marquee />
+
+      <div id="projects">
+        <Projects />
+      </div>
+
+      <Marquee />
+      
+      <Feedback />
+      
+      <Marquee />
+      
+      <div id="contact">
+        <Contact />
+      </div>
+
+      <Footer />
     </div>
   );
 }
