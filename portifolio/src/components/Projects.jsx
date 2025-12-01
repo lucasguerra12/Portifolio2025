@@ -148,7 +148,7 @@ const projectsData = [
     solution: 'A solução desenvolvida foi o GSW Task Manager, uma aplicação web colaborativa que permite aos usuários criar, gerenciar e acompanhar tarefas em tempo real. O sistema conta com organização por quadros, prioridades e status, facilitando o fluxo de trabalho.',
     contributions: 'Atuei como backend Java e após muitos erros e aprendizados comecei a entender como uma linguagem robusta funciona. Fui responsável pela criação de endpoints REST e pela integração com o banco de dados.',
     hardSkillsText: 'HTML5 (Faço com autonomia), CSS3 (Faço com autonomia), JavaScript (Faço com autonomia), TypeScript (Faço com autonomia), React (Faço com autonomia), Node.js (Faço com ajuda), Java (Spring) (Faço com ajuda), MongoDB (Faço com ajuda), Git/GitHub (Faço com autonomia), Jira (Faço com autonomia), Figma (Faço com autonomia)',
-    softSkills: 'Colaboração: Trabalhei em conjunto com o time de backend e frontend para integração da API.\nComunicação: Mantive alinhamento constante com o Product Owner sobre as regras de negócio.\nProatividade: Sugeri melhorias no design da sidebar e na usabilidade do sistema.',
+    softSkills: 'Colaboração: Trabalhei em conjunto com o time de backend e frontend para integração da API.\nComunicação: Mantive alinhamento constante com o Product Owner sobre as regras de negócio.\nProatividade: Sugeri melhorias no design da sidebar e na usabilidade do sistema.Devo destacar que durante esse projeto,enfrentamos diversas dificuldades que poderiam ser evitada caso tivessemos levados com mais profissionalismo,como a questao de gerir a equipe scrum e todos seus processos,deixar de lado amizade e coisas do tipo,cobrar com mais rigorosidade e com menos intervalos para erros.',
   },
   {
     id: 9, 
