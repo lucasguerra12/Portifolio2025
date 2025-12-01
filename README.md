@@ -122,7 +122,7 @@ A dificuldade recorrente de equipes e profissionais individuais em organizar tar
 O **GSW Task Manager**, uma aplicação web colaborativa que permite criar, gerenciar e acompanhar tarefas em tempo real.
 
 #### Contribuições Pessoais
-Atuei como desenvolvedor **Back-end (Java/Spring)**. Foi um período de grande aprendizado sobre linguagens robustas e tipadas no servidor.
+Atuei como desenvolvedor **Back-end (Java/Spring)**. Foi um período de grande aprendizado sobre linguagens robustas e tipadas no servidor.Devo  destacar que durante esse projeto,enfrentamos diversas dificuldades que poderiam ser evitada caso tivessemos levados com mais profissionalismo,como a questao de gerir a equipe scrum e todos seus processos,deixar de lado amizade e coisas do tipo,cobrar com mais rigorosidade e com menos intervalos para erros
 
 #### Hard Skills
 * **Java (Spring) / MongoDB:** Faço com ajuda.
