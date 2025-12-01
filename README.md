@@ -52,7 +52,7 @@ Atualmente, possuo experiência prática através de projetos acadêmicos robust
 ### 2.1 1º Semestre (2024-2) - Byte (Fatec)
 
 * **Parceiro Acadêmico:** Fatec (Prof. Jean e Masanori)
-* **Link do Repositório:** [github.com/debuggersFatec/API-3](https://github.com/debuggersFatec/API-3)
+* **Link do Repositório:** [github.com/Byte-Team-Fatec/Byte_Team-API-1-](https://github.com/Byte-Team-Fatec/Byte_Team-API-1-)
 
 #### Problema
 O problema central identificado foi a dificuldade de acesso e compreensão dos dados legislativos disponibilizados pela Câmara Municipal de São José dos Campos. As informações sobre a atuação dos vereadores estavam dispersas, dificultando o acompanhamento pela população.
