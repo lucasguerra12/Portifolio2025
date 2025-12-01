@@ -4,9 +4,9 @@
 
 1. [Apresentação do Aluno](#1-apresentação-do-aluno)
 2. [Projetos API](#2-projetos-api)
-    2.1 [1º Semestre (2024-2) - Byte (Fatec)](#21-1º-semestre-2023-2---byte-fatec)
-    2.2 [2º Semestre (2025-1) - Debuggers - Helpnei](#22-2º-semestre-2024-1---debuggers---helpnei)
-    2.3 [3º Semestre (2025-2) - FASTTASK (GSW)](#23-3º-semestre-2024-2---fasttask---gsw)
+    2.1 [1º Semestre (2024-2) - Byte (Fatec)](#21-1º-semestre-2024-2---byte-fatec)
+    2.2 [2º Semestre (2025-1) - Debuggers - Helpnei](#22-2º-semestre-2025-1---debuggers---helpnei)
+    2.3 [3º Semestre (2025-2) - FASTTASK (GSW)](#23-3º-semestre-2025-2---fasttask---gsw)
 3. [Outros Projetos](#3-outros-projetos)
 
 ---
@@ -14,7 +14,7 @@
 ## 1. Apresentação do Aluno
 
 <div align="center">
-  <img src="portifolio/src/assets/foto20.png" width="200px" alt="Foto de Lucas Guerra" style="border-radius: 50%;" />
+  <img src="src/assets/foto20.png" width="200px" alt="Foto de Lucas Guerra" style="border-radius: 50%;" />
 </div>
 
 <br>
@@ -55,13 +55,13 @@ Atualmente, possuo experiência prática através de projetos acadêmicos robust
 * **Link do Repositório:** [github.com/Byte-Team-Fatec/Byte_Team-API-1-](https://github.com/Byte-Team-Fatec/Byte_Team-API-1-)
 
 #### Problema
-O problema central identificado foi a dificuldade de acesso e compreensão dos dados legislativos disponibilizados pela Câmara Municipal de São José dos Campos. As informações sobre a atuação dos vereadores estavam dispersas, dificultando o acompanhamento pela população.
+O problema central identificado foi a dificuldade de acesso e compreensão dos dados legislativos disponibilizados pela Câmara Municipal de São José dos Campos. As informações sobre a atuação dos vereadores estavam dispersas em portais de difícil navegação, dificultando o acompanhamento e a fiscalização por parte da população.
 
 #### Solução
-A equipe desenvolveu um website informativo e acessível que centraliza e organiza os dados referentes aos vereadores. A aplicação permite que qualquer eleitor visualize rapidamente presenças, faltas, proposições apresentadas e o perfil individual.
+A equipe desenvolveu uma Aplicação Web informativa que centraliza e organiza os dados referentes aos vereadores. O sistema permite que qualquer cidadão visualize rapidamente indicadores de produtividade, como presenças, faltas e proposições apresentadas, promovendo a transparência pública de forma acessível e visual.
 
 #### Contribuições Pessoais
-Atuei como **Product Owner (PO)**. Fui responsável por organizar o backlog do Jira e validar se as entregas correspondiam aos requisitos, aprendendo a importância de metodologias ágeis.
+Atuei como **Product Owner (PO)**. Minha principal contribuição foi a gestão do backlog no Jira e a mediação entre os requisitos acadêmicos e a capacidade de entrega do time. Sendo um projeto de primeiro semestre, fui responsável por organizar as tarefas de forma a garantir que a equipe conseguisse aprender as tecnologias e, simultaneamente, entregar um produto funcional.
 
 #### Hard Skills
 * **HTML5 / CSS3 / JavaScript:** Faço com autonomia.
@@ -69,13 +69,11 @@ Atuei como **Product Owner (PO)**. Fui responsável por organizar o backlog do J
 * **Figma / Jira / Git:** Faço com autonomia.
 
 #### Soft Skills
-* **Liderança:** Guiei o time nas prioridades e foco nos objetivos.
-* **Comunicação:** Apresentação dos requisitos e alinhamento com os clientes (professores).
-* **Organização:** Mantive o backlog do Jira atualizado.
+* **Liderança e Empatia:** O maior desafio foi conciliar a curva de aprendizado de uma equipe iniciante com a necessidade de uma entrega profissional. Exerci liderança ao adaptar o escopo das sprints à realidade técnica do time, mantendo a motivação e garantindo o aprendizado paralelo ao desenvolvimento.
 
 <details>
 <summary>Ver Imagem do Projeto</summary>
-<img src="portifolio/src/assets/byte10.png" width="100%" />
+<img src="src/assets/byte10.png" width="100%" />
 </details>
 
 ---
@@ -86,26 +84,25 @@ Atuei como **Product Owner (PO)**. Fui responsável por organizar o backlog do J
 * **Link do Repositório:** [github.com/matheuskarnas/API-2](https://github.com/matheuskarnas/API-2)
 
 #### Problema
-O principal desafio foi a falta de uma plataforma digital moderna e centralizada que conseguisse divulgar e valorizar as empresas patrocinadoras do programa Helpnei.
+O principal desafio foi a falta de uma plataforma digital moderna e centralizada que conseguisse divulgar e valorizar as empresas patrocinadoras do programa Helpnei. A ausência dessa ferramenta dificultava a visibilidade dos parceiros e a atração de novos apoios.
 
 #### Solução
-Desenvolvimento de uma plataforma web interativa, intuitiva e responsiva. O sistema permite o cadastro de empresas e utiliza mapas para facilitar a localização dos patrocinadores.
+Desenvolvimento de uma Aplicação Web interativa e responsiva (SPA). O sistema oferece um mapa dinâmico para localização dos parceiros e páginas de perfil para cada empresa, modernizando a exposição dos patrocinadores e agregando valor à marca.
 
 #### Contribuições Pessoais
-Atuei no **Front-end**, onde tive meu primeiro contato com **React** e **TypeScript**. Fui responsável pela criação de componentes tipados e pela integração visual da plataforma.
+Atuei no **Front-end**, utilizando React e TypeScript. Minha contribuição crucial foi na implementação da lógica de formulários e tratamento de dados. Identifiquei a necessidade de sanitizar e formatar rigorosamente os dados no cliente antes do envio para a API, garantindo que informações como endereços e contatos fossem armazenadas corretamente no banco.
 
 #### Hard Skills
 * **React / TypeScript / Vite:** Faço com autonomia.
 * **Vercel:** Faço com autonomia.
-* **Supabase:** Faço com ajuda.
+* **Integração de APIs / Supabase:** Faço com ajuda.
 
 #### Soft Skills
-* **Comunicação:** Alinhamento constante com o time de back-end.
-* **Resolução de Problemas:** Enfrentei desafios técnicos ao integrar APIs de mapa.
+* **Pensamento Analítico e Resolução de Problemas:** Analisei o fluxo de dados e implementei validadores no Front-end preventivamente para evitar quebras na integração, garantindo a consistência das informações enviadas ao Back-end.
 
 <details>
 <summary>Ver Imagem do Projeto</summary>
-<img src="portifolio/src/assets/helpnei10.png" width="100%" />
+<img src="src/assets/helpnei10.png" width="100%" />
 </details>
 
 ---
@@ -116,13 +113,13 @@ Atuei no **Front-end**, onde tive meu primeiro contato com **React** e **TypeScr
 * **Link do Repositório:** [github.com/debuggersFatec/API-3](https://github.com/debuggersFatec/API-3)
 
 #### Problema
-A dificuldade recorrente de equipes e profissionais individuais em organizar tarefas de forma colaborativa e visual, impactando a produtividade.
+A dificuldade recorrente de equipes e profissionais individuais em organizar tarefas de forma colaborativa e visual. A falta de ferramentas integradas impactava a produtividade e dificultava o acompanhamento de prazos e metas em tempo real.
 
 #### Solução
-O **GSW Task Manager**, uma aplicação web colaborativa que permite criar, gerenciar e acompanhar tarefas em tempo real.
+O **GSW Task Manager**, uma Aplicação Web colaborativa baseada na metodologia Kanban. O sistema permite criar, gerenciar e acompanhar tarefas em tempo real, organizando fluxos de trabalho através de quadros, colunas de status e prioridades.
 
 #### Contribuições Pessoais
-Atuei como desenvolvedor **Back-end (Java/Spring)**. Foi um período de grande aprendizado sobre linguagens robustas e tipadas no servidor.Devo  destacar que durante esse projeto,enfrentamos diversas dificuldades que poderiam ser evitada caso tivessemos levados com mais profissionalismo,como a questao de gerir a equipe scrum e todos seus processos,deixar de lado amizade e coisas do tipo,cobrar com mais rigorosidade e com menos intervalos para erros
+Atuei como desenvolvedor **Back-end (Java/Spring)**. Fui responsável pela criação de endpoints RESTful seguros e pela integração com o banco de dados. Além da codificação, minha contribuição fundamental foi na postura profissional adotada diante das dificuldades de gestão da equipe, garantindo que conflitos internos não impedissem a entrega técnica.
 
 #### Hard Skills
 * **Java (Spring) / MongoDB:** Faço com ajuda.
@@ -130,12 +127,11 @@ Atuei como desenvolvedor **Back-end (Java/Spring)**. Foi um período de grande a
 * **Git / Jira / Figma:** Faço com autonomia.
 
 #### Soft Skills
-* **Proatividade:** Sugeri melhorias no design da sidebar.
-* **Colaboração:** Trabalho conjunto com front e back-end.
+* **Inteligência Emocional e Resiliência:** O time enfrentou desafios de gestão devido à mistura de relações pessoais com profissionais.Mesmo tentando usar inteligência emocional para separar amizade de trabalho, mantendo o rigor nos processos do Scrum e o foco nas entregas, não conseguimos entregar o processo do jeito que queremos
 
 <details>
 <summary>Ver Imagem do Projeto</summary>
-<img src="portifolio/src/assets/fast10.png" width="100%" />
+<img src="src/assets/fast10.png" width="100%" />
 </details>
 
 ---
@@ -146,7 +142,7 @@ Atuei como desenvolvedor **Back-end (Java/Spring)**. Foi um período de grande a
 | --- | --- | --- | --- |
 | **World Beauty** | Sistema de gestão para salões (Fatec). | React, TyseScript, Bootstrap | [GitHub](https://github.com/lucasguerra12/WB) |
 | **Aerocode** | Dashboard de gestão para aviação. | TypeScript, React | [GitHub](https://github.com/lucasguerra12/AV3) |
-| **HAKA COMPANY** | Loja de roupas em WordPress (Em andamento). | React, TypeScript, Node.js | - |
-| **Synex** | Landing page corporativa (Em andamento). | JavaScript, HTML, CSS | - |
-| **Dunkel Company** | E-commerce Dark Mode (Em andamento). | React, Node.js | - |
-| **Pratik** | App de conexão de serviços (Em andamento). | Vue.js, Node.js | - |
+| **HAKA COMPANY** | Loja de roupas em WordPress. E-commerce focado em experiência de marca imersiva. | React, TypeScript, Node.js | - |
+| **Synex** | Landing page corporativa de alta conversão. | JavaScript, HTML, CSS | - |
+| **Dunkel Company** | E-commerce Dark Mode com design system próprio. | React, Node.js | - |
+| **Pratik** | App de conexão de serviços (PWA). | Vue.js, Node.js | - |
