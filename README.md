@@ -1,82 +1,109 @@
-# Portfólio Pessoal 2025 - Lucas Guerra
+# Portfólio de Trabalho de Graduação - Lucas Guerra
 
-## 🚀 Sobre o Projeto
+## Sumário
 
-Bem-vindo ao repositório do meu portfólio pessoal! Este é um projeto *web* moderno, desenvolvido do zero, com o objetivo de apresentar minha trajetória, habilidades técnicas e os projetos que desenvolvi ao longo da minha jornada como programador.
+1. [Apresentação do Aluno](#1-apresentação-do-aluno)
+2. [Projetos API](#2-projetos-api)
+    2.1 [1º Semestre (2023-2) - Byte](#21-1º-semestre-2023-2---byte)
+    2.2 [2º Semestre (2024-1) - Helpnei](#22-2º-semestre-2024-1---helpnei)
 
-A aplicação foi construída com foco numa experiência de utilizador limpa, responsiva e visualmente atraente, utilizando um design *dark mode* com destaques em verde (`#03F978`).
+---
 
-* **Link de Acesso:** ([https://lucas-guerra-portfolio.vercel.app/](https://lucasguerra.vercel.app/))
+## 1. Apresentação do Aluno
 
-## ✨ Sessões do Site
+<div align="center">
+  <img src="portifolio/src/assets/foto20.png" width="200px" alt="Foto de Lucas Guerra" />
+</div>
 
-O portfólio está estruturado nas seguintes sessões principais:
+<br>
 
-* **Hero:** A primeira impressão! Uma introdução sobre quem eu sou e minha principal área de atuação.
-* **Marquee (Faixa Rolante):** Faixas dinâmicas que exibem as tecnologias que domino.
-* **AboutMe (Sobre Mim):** Uma descrição mais detalhada do meu perfil profissional, destacando minhas "stats" como anos de experiência e número de projetos.
-* **Skills (Habilidades):** Uma grelha visual com os ícones das minhas principais tecnologias (React, Java, Spring, Node.js, etc.).
-* **Projects (Projetos):** Um carrossel interativo onde apresento meus principais trabalhos. Alguns projetos (especialmente os da Fatec) possuem um botão "Ver Detalhes (API)" que abre um modal com informações completas sobre o problema, a solução, a empresa parceira e minhas contribuições pessoais.
-* **Feedback (Depoimentos):** Um *slider* com depoimentos reais de colegas de trabalho e clientes, como os da Helpnei.
-* **Formation (Formação):** Uma linha do tempo que ilustra minha trajetória académica e cursos complementares (Fatec, Unip, EBAC, etc.).
-* **Contact (Contacto):** Um formulário funcional para quem desejar entrar em contacto diretamente pelo site.
-* **Footer (Rodapé):** Links diretos para minhas redes profissionais e email.
+* **Nome:** Lucas Fernando Guerra
+* **Idade:** 21 anos
 
-## 💻 Tecnologias Utilizadas
+### Curso
+Tecnólogo em Desenvolvimento de Software Multiplataforma - Fatec São José dos Campos
 
-Este projeto foi construído utilizando as seguintes tecnologias e ferramentas:
+### Histórico Acadêmico
+* **2024 - Atual:** FATEC - São José dos Campos (Tecnólogo em Desenvolvimento de Software Multiplataforma)
+* **2022 - 2024:** UNIP - Universidade Paulista (Tecnólogo em Análise e Desenvolvimento de Sistemas)
+* **2024:** INOVA Escola de Inovadores Fatec
+* **2024:** EBAC & ORIGAMID (Cursos de Front-end e JavaScript)
 
-* **Framework/Biblioteca Principal:** [React](https://react.dev/)
-* **Empacotador e Servidor Dev:** [Vite](https://vitejs.dev/) (com plugin `@vitejs/plugin-react-swc`)
-* **Linguagem:** JavaScript (JSX) e CSS
-* **Bibliotecas React:**
-    * `react-icons`: Para os ícones de redes sociais e tecnologias.
-* **Ferramentas de Qualidade de Código:**
-    * `eslint`: Para garantir um padrão de código limpo e consistente.
+### Motivação
+Sempre fui apaixonado por tecnologia. Essa curiosidade me levou à Fatec São José dos Campos, onde ingressei no curso de Desenvolvimento de Software Multiplataforma buscando uma base sólida e prática para minha carreira. Sou um profissional focado, detalhista e persistente, valorizando o trabalho em equipe e a entrega de resultados de qualidade.
 
-## 🚀 Como Executar o Projeto Localmente
+### Histórico Profissional
+Atualmente, possuo experiência prática através de projetos acadêmicos robustos e trabalhos como freelancer, focando em soluções completas (Back-end e Front-end). Estou em busca de novas oportunidades formais para aplicar meus conhecimentos em React, Node.js e Java.
 
-Se quiseres clonar e executar este projeto na tua máquina local, segue estes passos simples:
+### Contatos
+* **LinkedIn:** [linkedin.com/in/lucas-guerra000](https://linkedin.com/in/lucas-guerra000)
+* **GitHub:** [github.com/lucasguerra12](https://github.com/lucasguerra12)
+* **E-mail:** lucasguerrawr2004@gmail.com
+* **Portfólio Web:** [Link para seu site React hospedado, ex: Vercel]
 
-1.  **Clona o repositório:**
-    ```bash
-    git clone [https://github.com/lucasguerra12/portifolio2025.git](https://github.com/lucasguerra12/portifolio2025.git)
-    ```
+### Principais Conhecimentos
+* **Linguagens:** Java, Python, TypeScript, JavaScript.
+* **Front-end:** React, HTML5, CSS3.
+* **Back-end:** Node.js, Spring Boot.
+* **Banco de Dados:** MySQL, MongoDB.
+* **Outros:** Git, Docker.
 
-2.  **Navega até a pasta do projeto:**
-    * Nota: O teu projeto React está dentro da subpasta `portifolio`.
-    ```bash
-    cd portifolio2025/portifolio
-    ```
+---
 
-3.  **Instala as dependências:**
-    * (Certifica-te de que tens o [Node.js](https://nodejs.org/) instalado)
-    ```bash
-    npm install
-    ```
+## 2. Projetos API
 
-4.  **Inicia o servidor de desenvolvimento:**
-    ```bash
-    npm run dev
-    ```
+### 2.1 1º Semestre (2023-2) - Byte
 
-5.  Abre [http://localhost:5173](http://localhost:5173) (ou o link que aparecer no teu terminal) no teu navegador para ver a aplicação a funcionar.
+* **Parceiro Acadêmico:** Fatec (Prof. Jean e Masanori)
+* **Link do Repositório:** [github.com/debuggersFatec/API-3](https://github.com/debuggersFatec/API-3)
 
-### Outros Scripts Úteis
+#### Problema
+Dificuldade de acesso e compreensão dos dados legislativos disponibilizados pela Câmara Municipal. Os cidadãos comuns não tinham uma forma intuitiva de visualizar o desempenho e as atividades dos vereadores de São José dos Campos.
 
-* **Construir para produção:**
-    ```bash
-    npm run build
-    ```
-* **Executar o linter:**
-    ```bash
-    npm run lint
-    ```
+#### Solução
+Desenvolvimento de um Website informativo que centraliza e organiza os dados referentes aos vereadores. A solução oferece visualizações claras e estatísticas sobre a atuação legislativa, facilitando o acompanhamento por parte da população.
 
-## 👨‍💻 Autor
+#### Tecnologias Utilizadas
+* **Python (Flask):** Back-end e processamento de dados.
+* **MySQL:** Banco de dados relacional.
+* **HTML5 & CSS3:** Estruturação e estilização do Front-end.
 
-**Lucas Fernando Guerra**
+#### Contribuições Pessoais
+Atuei como **Product Owner (PO)**, sendo responsável por organizar o backlog do produto e validar as entregas junto aos stakeholders. Garanti que os requisitos fossem cumpridos e que o valor fosse entregue a cada sprint. Tecnicamente, auxiliei na estruturação do Front-end.
 
-* **LinkedIn:** [https://www.linkedin.com/in/lucas-guerra000/](https://www.linkedin.com/in/lucas-guerra000/)
-* **GitHub:** [https://github.com/lucasguerra12](https://github.com/lucasguerra12)
-* **Email:** [lucasguerrawr2004@gmail.com](mailto:lucasguerrawr2004@gmail.com)
+#### Hard Skills
+* **HTML5:** Faço com autonomia.
+* **CSS3:** Faço com autonomia.
+* **Python:** Faço com ajuda.
+
+#### Soft Skills
+* **Liderança:** Como PO, guiei o time nas prioridades e mantive o foco nos objetivos do projeto.
+* **Comunicação:** Responsável pela apresentação dos requisitos e alinhamento entre a equipe técnica e os professores (clientes).
+
+---
+
+### 2.2 2º Semestre (2024-1) - Helpnei
+
+* **Parceiro Acadêmico:** Helpnei
+* **Link do Repositório:** [github.com/matheuskarnas/API-2](https://github.com/matheuskarnas/API-2)
+
+#### Problema
+Falta de uma plataforma digital moderna para divulgar patrocinadores e conectar prestadores de serviços. A empresa parceira necessitava de um sistema que permitisse maior visibilidade para seus parceiros comerciais.
+
+#### Solução
+Plataforma web interativa com integração de mapas e sistema de cadastro. O sistema permite que usuários localizem patrocinadores e serviços próximos geograficamente, promovendo a conexão entre as pontas do negócio.
+
+#### Tecnologias Utilizadas
+* **React:** Biblioteca principal para construção da interface.
+* **TypeScript:** Tipagem estática para maior segurança no código.
+* **Firebase:** Utilizado para serviços de back-end e banco de dados em tempo real.
+
+#### Contribuições Pessoais
+Atuei no **Desenvolvimento Front-end**, focando na construção de componentes interativos com React e na integração com APIs de mapas para geolocalização dos parceiros.
+
+#### Hard Skills
+* **React:** Faço com autonomia.
+* **TypeScript:** Faço com autonomia.
+
+#### Soft Skills
+* **Trabalho em Equipe:** Integração constante com o time de back-end para garantir que os dados do Firebase fossem consumidos corretamente pelo front-end.
