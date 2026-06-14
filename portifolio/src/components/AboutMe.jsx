@@ -3,7 +3,7 @@ import './AboutMe.css';
 import aboutMePhoto from '../assets/foto20.png';
 
 function AboutMe() {
-  const idade = 21; 
+  const idade = 22; 
   
   return (
     <section className="about-container" id="about">

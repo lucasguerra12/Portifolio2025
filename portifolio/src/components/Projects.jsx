@@ -32,6 +32,8 @@ import fast20 from '../assets/fast20.png';
 import pratik10 from '../assets/pratik10.png';
 import pratik20 from '../assets/pratik20.png';
 
+import apitecsus from '../assets/apitecsus.png';
+
 const projectsData = [
   {
     id: 1,
@@ -279,6 +281,30 @@ const projectsData = [
     softSkills:
       'Empatia: Foco total na usabilidade para usuários leigos.\nResiliência: Aprendizado rápido de um novo framework (Vue.js) durante o projeto.\nOrganização: Manutenção de código limpo e bem documentado.',
   },
+  {
+    id: 11,
+    title: 'Estação Meteorológica IoT - TECSUS',
+    description: 'Sistema web e IoT para recolha, processamento e visualização de dados meteorológicos.',
+    tags: ['React', 'Node.js', 'IoT', 'CI/CD'],
+    imageMain: apitecsus,
+    imageOverlay: apitecsus,
+
+    githubLink: 'https://github.com/Inception-Fatec/api-4', 
+    liveLink: 'http://skyemperor.space',
+
+    semester: 'Quarto Semestre (API 4)',
+    partner: 'Tecsus',
+    problem:
+      'A Tecsus necessitava de uma solução completa (hardware e software) para recolher, processar e disseminar dados meteorológicos. O grande desafio era criar um sistema robusto e escalável que servisse diferentes perfis de clientes (agricultores, proteção civil, ONGs) com uma arquitetura de alta performance para a receção de dados em massa.',
+    solution:
+      'Desenvolvemos uma estação meteorológica IoT integrada a uma Aplicação Web. A solução abrangeu a configuração de um datalogger, serviços de receção escaláveis e painéis (dashboards) com estatísticas detalhadas. Tudo isto suportado por um pipeline de Integração e Entrega Contínua (CI/CD) para testes e deploys automatizados.',
+    contributions:
+      'Atuei no desenvolvimento full stack. A minha principal responsabilidade foi estruturar os dashboards focando na usabilidade (UX) ou criar as rotas da API para receção dos dados.',
+    hardSkillsText:
+      'Integração Contínua CI/CD (Faço com autonomia), React (Faço com autonomia), Node.js (Faço com autonomia), Bancos de Dados Relacionais/Não-Relacionais (Faço com autonomia), IoT (Faço com ajuda)',
+    softSkills:
+      'Visão de Negócio e Adaptabilidade: O projeto exigiu uma forte compreensão do Retorno sobre o Investimento (ROI) e das necessidades de variados nichos de mercado, o que me permitiu alinhar as entregas técnicas ao valor real esperado pelo cliente parceiro.',
+  }
 ];
 
 function Projects() {

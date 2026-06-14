@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer-wrapper">
         
         <div className="footer-copyright">
-          © 2025 Lucas Fernando Guerra. Todos os direitos reservados.
+          © 2026 Lucas Fernando Guerra. Todos os direitos reservados.
         </div>
 
         <div className="footer-socials">
